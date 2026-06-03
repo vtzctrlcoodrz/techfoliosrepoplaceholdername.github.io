@@ -14,7 +14,7 @@ summary: "Simple Word Counter"
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
+  <img width="200px" src="../img/simplewordcounter/word-counter-thumbnail.png" class="img-thumbnail" >
 </div>
 
 A few months ago, I wanted to practice my beginner-level HTML/CSS skills by building a simple web page from scratch. My idea at first was just a page with a container holding a textbox and a button. It definitely looked ugly at first, but after I learned about color gradients using linear-gradient and explored various website aesthetics, I decided to try it out on my own. It involved a lot of trial and error, but I managed to come up with a visually appealing color gradient combination. This project served as a practical sandbox for me to experiment with spacing, color theory, and responsive design principles.
