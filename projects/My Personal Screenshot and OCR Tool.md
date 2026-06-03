@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/my-personal-screenshot-and-ocr-tool/equations-thumnail.png
 title: "My Personal Screenshot and OCR Tool"
 date: 2026
 published: true
