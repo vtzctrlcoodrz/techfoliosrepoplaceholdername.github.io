@@ -2,58 +2,18 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+title: "My Personal Screenshot and OCR Tool"
+date: 2026
 published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - Python
+summary: ""
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
 
-Cotton is a horror-style text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+As a student, I frequently needed to write down and capture visual information from online video lectures and save it into my notes on Obsidian. However, the default macOS screenshot workflow required multiple manual steps. I had to use the hotkey to screenshot, click the preview, right-click, and select "copy to clipboard". This process did break my focus and slowed me down. So I developed a lightweight Python script that automates the process with fewer steps. After running it, I can just hover anywhere on the screen to find the first point (defining the top left corner of the screenshot), press the hotkey, move to the second point which is the bottom right corner of the screenshot edge, and press the same hotkey. This captures the image and saves it directly to my clipboard, allowing me to paste it anywhere. This saves me a lot of time, helping me capture formulas and equations to save directly to my notes.
 
-To give you a flavor of the game, here is an excerpt from one run:
+I later expanded the tool's capability by adding an OCR feature powered by a multimodal LLM with custom instructions. The process is the same as the screenshooting tool but with different hotkeys. I have to hover and press the hotkey corresponding to the OCR, then hover to another point in the screen and press the same hotkey as the first one. This captures the screen, sending it directly to the LLM, waiting for a few seconds for it to generate text, then saving that text to my clipboard. This is a game changer to my workflow, since I can just screenshot my handwritten notes and convert them to text easily for easy searchability on markdown notes.
 
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+The project was developed by me, with the help of an LLM chatbot, after trying various third-party Python libraries. Through this project, I've learned how to integrate different libraries to interact with the OS.
