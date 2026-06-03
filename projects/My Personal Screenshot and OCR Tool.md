@@ -17,4 +17,6 @@ I later expanded the tool's capability by adding an OCR feature powered by a mul
 
 The project was developed by me, with the help of an LLM chatbot, after trying various third-party Python libraries. Through this project, I've learned how to integrate different libraries to interact with the OS.
 
-<video  src="../video/Screenshot and OCR Tool Demo.mp4">
+<video controls width="75%">
+  <source src="../video/Screenshot and OCR Tool Demo.mp4" type="video/mp4">
+</video>
