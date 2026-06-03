@@ -9,7 +9,7 @@ labels:
   - Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/dark-terminal.png">
 
 ## The First Spark
 My interests in computers began a decade ago. Back in middle school, a visitor to our class demonstrated the basics of Computer Science to our class, including a simple game. I was fascinated by the idea that you could create a game by writing something called computer code. That moment sparked my curiosity.
