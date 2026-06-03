@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/simplewordcounter/word-counter-thumbnail.png
 title: "Simple Word Counter"
 date: 2025
 published: true
