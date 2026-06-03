@@ -10,7 +10,7 @@ labels:
 summary: ""
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<video  src="../video/Screenshot and OCR Tool Demo.mp4">
 
 As a student, I frequently needed to write down and capture visual information from online video lectures and save it into my notes on Obsidian. However, the default macOS screenshot workflow required multiple manual steps. I had to use the hotkey to screenshot, click the preview, right-click, and select "copy to clipboard". This process did break my focus and slowed me down. So I developed a lightweight Python script that automates the process with fewer steps. After running it, I can just hover anywhere on the screen to find the first point (defining the top left corner of the screenshot), press the hotkey, move to the second point which is the bottom right corner of the screenshot edge, and press the same hotkey. This captures the image and saves it directly to my clipboard, allowing me to paste it anywhere. This saves me a lot of time, helping me capture formulas and equations to save directly to my notes.
 
