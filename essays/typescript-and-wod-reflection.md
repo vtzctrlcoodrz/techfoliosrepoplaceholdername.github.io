@@ -11,7 +11,7 @@ labels:
   - Reflection
 ---
 
-<img width="400px" height="auto" class="rounded float-start pe-4" src="../img/typescript-and-wod-reflection/competency-before-engineering.png">
+<img width="300px" height="auto" class="rounded float-start pe-4" src="../img/typescript-and-wod-reflection/competency-before-engineering.png">
 
 ## First Impression of JavaScript and TypeScript
 As someone who comes from a background who has done coding in C/C++, Python, and Java, learning both JavaScript and TypeScript is mostly not that difficult. The syntax is mostly similar to the C language family and Java. Though, there are some parts that I found way different from the other programming languages I used. I discovered that there are more than one way to implement functions in this language. It's one of those syntaxes that might take a while to get used to when coming from the C family and Python. I also noticed that both JavaScript and TypeScript have so-called `objects`, which resemble the nearly the same syntax as Python's dictionary. However, there are other JavaScript and TypeScript features I dislike, such as the following:
