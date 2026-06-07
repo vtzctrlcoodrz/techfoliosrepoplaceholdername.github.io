@@ -35,3 +35,7 @@ As for the Athletic Software Engineering, the idea is basically teaching student
 
 ## Conclusion
 Overall, I find learning JavaScript and TypeScript interesting and a fitting language for teaching Software Engineering because it does overlap with Web Development and allows you to use HTML and CSS for learning UI. Other programming languages like C# and Python work as well. The Athletic Software Engineering is a new learning experience for me. They may be stressful in the future, but the learning through this might still be worth it. Additionally, I may need some time to get used to this class structure.
+
+---
+
+Disclosure: I used Apple Writing Tools for grammar checking, and an LLM to help structure the flow of this essay. The image was also generated using GPT 2 image via API. All opinions and technical reflections are my own.
