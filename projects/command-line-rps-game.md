@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/command-line-rps-game.md/simple-rps-game-terminal-thumbnail.png
+image: img/rock-paper-scissor-icons.png
 title: "Command Line RPS Game"
 date: 2025
 published: true
