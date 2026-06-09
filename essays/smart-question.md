@@ -74,4 +74,4 @@ Overall, going through this material is also valuable for interacting with LLMs.
 
 ---
 
-*AI Usage:* The initial concepts, ideas, and content of this essay were developed independently. AI language models were subsequently utilized to assist with structural revisions and wording refinement.
+**AI Usage:** The initial concepts, ideas, and content of this essay were developed independently. AI language models were subsequently utilized to assist with structural revisions and wording refinement.
