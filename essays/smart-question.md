@@ -31,7 +31,7 @@ The "Not-Smart" Question
 Since badly written questions on StackOverflow are typically closed, deleted, or edited, I will instead give a hypothetical example based on the pattern that violates Raymond’s ideas.
 
 Example 1:
-
+```
 Subject: Help plz!!! Sorting Program not WORKING!!! URGENT!!!
 hey guys i have assignment due tomorrow and my code doesnt work
 heres what i need to do:
@@ -51,9 +51,11 @@ int main() {
 }
 
 its not working can someone fix it for me??? need this asap!!!
+```
 A hypothetical response to this would look like: "This is not a code writing service. What have you tried? Where specifically are you stuck?" or "Closed as "homework without effort".
 
-Example 2: Missing context ```
+Example 2: Missing context 
+```
 Subject: API call returning 401 help!!!
 hey i'm trying to call the REST API in my Python project but it keeps returning a 401 Unauthorized. Here is my code:
 
