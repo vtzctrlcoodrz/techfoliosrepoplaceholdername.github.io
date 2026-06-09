@@ -11,7 +11,7 @@ labels:
   - Essay
 ---
 
-<img width="300px" height="auto" class="rounded float-start pe-4" src="../img/typescript-and-wod-reflection/competency-before-engineering.png">
+<img width="300px" height="auto" class="rounded float-start pe-4" src="../img/smart-question/smart-question-stylish-thinker.png">
 
 ## Introduction
 In the world of Software Engineering and programming, the quality of answers you get to your questions depend on the way you ask the questions as well as the difficulty of developing a response. Eric S. Raymond's essay "How To Ask Questions The Smart Way" provides a framework that helps determine whether a question is considered "smart" and "not smart". While everyone might have asked a "not-smart" type of question at one point, a very organized and well-written question containing the major necessary details can have positive outcomes, including better, precise, and accurate responses. In contrast, a poorly written question would either get a lower quality response, be ignored, or sometimes receive a hostile response.  Taking time to develop a smart question helps save time for the responder, since the majority of the volunteers take time out of their busy lives to answer questions.
