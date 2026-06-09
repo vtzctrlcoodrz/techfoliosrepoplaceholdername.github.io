@@ -1,10 +1,10 @@
 ---
 layout: essay
 type: essay
-title: "The Art of Inquiry: Why Smart Questions Define Smart Software Engineering"
+title: "Ask Better, Code Better: Why Smart Questions Define Smart Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2026-05-08
-published: false
+published: true
 labels:
   - Software Engineering
   - Smart Questioning
@@ -19,16 +19,14 @@ In the world of Software Engineering and programming, the quality of answers you
 According to Raymond's essay, before you ask a question, try to look for an answer by searching the internet, manuals, FAQs, experimenting, asking a skilled friend, or reading the source code. If a person is required to ask, be meaningful and specific with subject headers, write clearly, be precise and informative, describe the goal, and don't flag your question as "Urgent".
 
 The Smart Question
-An example of smart question I choose is this following: 
-Question: Why is conditional processing of a sorted array faster than of an unsorted array?
-Author: GManNickG Statistics: ~27,000 upvotes, 26 answers, ~2.0 million views
+An example of a smart question I chose is this [StackOverflow post](https://stackoverflow.com/questions/11227809/why-is-conditional-processing-of-a-sorted-array-faster-than-of-an-unsorted-array), which asks why applying a conditional operation on a sorted array performs significantly faster than on an unsorted one.
 
 This question is an example of a "smart question" that abides by Raymond's principle. The author observed that processing an array with a conditional sum operation after sorting produces a performance improvement. Instead of just asking "why is my code slow", the author wrote a minimal but reproducible instruction, recorded the timing, and noted that the behavior appeared across another language.
 
 The community responded with depth and precision. The top answer explains that the root cause is branch prediction, where the CPU constantly predicts the outcome of a conditional branch (like if statements) to execute instructions. If the CPU predicts it correctly, the execution flows smoothly; otherwise, the pipeline must be flushed and restarted, leading to performance loss. Additional responses are also provided, including: Assembly-level analysis and compiler-related behavior. Because of the question's quality, the responses from the answerers provided a very deep, critical thinking and evidence-based explanations.
 
-The "Not-Smart" Question
-Since badly written questions on StackOverflow are typically closed, deleted, or edited, I will instead give a hypothetical example based on the pattern that violates Raymond’s ideas.
+The "Not-Smart" Questions
+Since poorly written questions on StackOverflow are typically closed, deleted, or edited, I will instead give a hypothetical examples based on the pattern that violates Raymond’s ideas.
 
 Example 1:
 ```
@@ -52,7 +50,7 @@ int main() {
 
 its not working can someone fix it for me??? need this asap!!!
 ```
-A hypothetical response to this would look like: "This is not a code writing service. What have you tried? Where specifically are you stuck?" or "Closed as "homework without effort".
+A hypothetical response to this would look like: "This is not a code writing service. What have you tried? Where specifically are you stuck?" or "Closed as "homework without effort". This violates Raymond's rule to be precise and informative. You must show effort and describe exactly where you are stuck, rather than demanding for fix.
 
 Example 2: Missing context 
 ```
